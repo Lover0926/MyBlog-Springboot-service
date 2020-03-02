@@ -26,6 +26,16 @@ public class WriteBlog {
     private String  blogcreatetime;
     private String  blogupdatetime;
     private String  blogremarks;
+    private String  listname;
+
+    public String getListname() {
+        return listname;
+    }
+
+    public void setListname(String listname) {
+        this.listname = listname;
+    }
+
     public Integer getUserid() {
         return userid;
     }
